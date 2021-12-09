@@ -1,0 +1,359 @@
+.shadow-btn-s {
+  box-shadow: 0 13px 9px #bbb6b1;
+}
+
+.shadow-card {
+  box-shadow: 0 30px 20px rgba(246, 245, 254, 0.2);
+}
+
+.bg-gradient {
+  background: linear-gradient(to right, #1c105e, #2d063c);
+}
+
+.bg-light {
+  background-color: #fff;
+}
+
+.bg-grey {
+  background-color: #a8b0c9;
+}
+
+.bg-darkgrey {
+  background-color: #82879B;
+}
+
+.bg-p {
+  background-color: #ff6934;
+}
+
+.bg-p-lite {
+  background-color: #fcf0eb;
+}
+
+.bg-success {
+  background-color: #1ab156;
+}
+
+.bg-gold {
+  background-color: #e19e39;
+}
+
+.bg-darkgreen {
+  background-color: #375E6E;
+}
+
+.bg-litegreen {
+  background-color: #E4F2F8;
+}
+
+.txt-p {
+  color: #ff6934;
+}
+
+.txt-lite {
+  color: #fff;
+}
+
+.txt-grey {
+  color: #a8b0c9;
+}
+
+.txt-darkgrey {
+  color: #82879B;
+}
+
+.txt-success {
+  color: #1ab156;
+}
+
+.txt-err {
+  color: #f64e4e;
+}
+
+.txt-gold {
+  color: #e19e39;
+}
+
+.txt-dark {
+  color: #000;
+}
+
+.txt-luminous {
+  color: #A4938D;
+}
+
+.txt-darkgreen {
+  color: #375E6E;
+}
+
+.font-pop, .pop-lite, .btn, .pop-reg, .pop-heavy, .btn-strong {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-opens {
+  font-family: "Open Sans", sans-serif;
+}
+
+.pop-heavy, .btn-strong {
+  font-weight: bold;
+}
+
+.pop-reg {
+  font-weight: normal;
+}
+
+.pop-lite, .btn {
+  font-weight: normal !important;
+}
+
+.para-xs {
+  font-size: 12px !important;
+}
+
+.para-sm, .form-group label {
+  font-size: 14px !important;
+}
+
+.para-reg {
+  font-size: 16px !important;
+}
+
+.para-lg {
+  font-size: 18px !important;
+}
+
+.para-xl {
+  font-size: 20px !important;
+}
+
+.h-s {
+  font-size: 22px !important;
+}
+
+.h-m {
+  font-size: 24px !important;
+}
+
+.h-l {
+  font-size: 28px !important;
+}
+
+.h-xl {
+  font-size: 32px !important;
+}
+
+.h-xxl {
+  font-size: 34px !important;
+}
+
+.h-xxxl {
+  font-size: 42px !important;
+  line-height: 30px;
+}
+
+.btn {
+  width: auto;
+  height: 50px;
+  line-height: 20px;
+  border-radius: 5px !important;
+  border: none;
+  padding: 15px 30px !important;
+}
+
+.btn-default {
+  background: #fff;
+  box-shadow: 0 0 5px #8aa4af4d;
+  padding: 15px 20px !important;
+  min-width: none;
+  width: auto;
+}
+.btn-default:hover {
+  color: #ff6934;
+}
+
+.btn-p {
+  background-color: #ff6934;
+  color: #fff !important;
+}
+
+.btn-gold {
+  background-color: #e19e39;
+  color: #fff !important;
+}
+
+.btn-light-p {
+  background-color: #fff;
+  color: #ff6934;
+}
+
+.btn-outline-s {
+  background: transparent;
+  color: #000;
+  border: 1px solid #a8b0c9;
+}
+
+.btn-outline-p {
+  background: transparent;
+  color: #000 !important;
+  border: 1px solid #ff6934;
+}
+.btn-outline-p:hover {
+  background: #ff6934;
+  border-color: #ff6934;
+  color: #fff !important;
+}
+
+.btn-outline-success {
+  border: 1px solid #1ab156 !important;
+  color: #1ab156;
+}
+.btn-outline-success:hover {
+  background: #1ab156;
+  border-color: #ff6934;
+  color: #fff !important;
+}
+.btn-outline-success[disabled] {
+  color: #a8b0c9 !important;
+  border-color: #a8b0c9 !important;
+}
+
+.btn-capsule {
+  border-radius: 35px !important;
+}
+
+.btn-auto {
+  width: auto !important;
+  min-width: none !important;
+  height: auto;
+  min-height: auto;
+}
+
+.btn-mini {
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.btn-sm {
+  height: 40px !important;
+  line-height: 10px !important;
+  min-width: 0 !important;
+  padding: 15px 25px !important;
+}
+
+a:not(footer a) {
+  color: #ff6934;
+}
+
+.link-light a,
+a .link-light {
+  color: #fff;
+}
+.link-light a:hover,
+a .link-light:hover {
+  color: #ff6934;
+  text-decoration: none;
+}
+
+.link-dark a,
+a .link-dark {
+  color: #000;
+}
+.link-dark a:hover,
+a .link-dark:hover {
+  color: #ff6934;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.w100,
+.w100 * {
+  width: 100%;
+}
+
+.mh80 {
+  min-height: 80vh;
+}
+
+.form-group {
+  position: relative;
+  margin-top: 20px;
+}
+.form-group label {
+  color: #375E6E;
+  display: inline-block;
+  padding: 3px 0px;
+  z-index: 4;
+}
+.form-group .input-lg {
+  height: 50px;
+}
+
+.radius-none {
+  border-radius: 0 !important;
+}
+
+html,
+body {
+  width: 100%;
+  height: auto;
+  background-color: #333;
+}
+
+#wrapper {
+  position: relative;
+  width: 375px;
+  max-width: 100%;
+  height: 812px;
+  background-color: #fcf0eb;
+  margin: 30px auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+header {
+  height: 65px;
+  background-color: #fff;
+}
+header i {
+  font-size: 20px;
+}
+header a.link-dark {
+  color: #111;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+}
+.card .card-header {
+  background-color: #fff;
+}
+.card .card-footer {
+  background-color: #fff;
+  border-top: 1px solid #a8b0c9;
+}
+
+.border-left {
+  border-left: 1px solid #a8b0c9;
+}
+
+.driver-strip {
+  background-color: #EEDCD4;
+}
+
+.loadinfo li {
+  line-height: 1.65em;
+}
+.loadinfo li i {
+  color: #a8b0c9;
+  display: inline-block;
+  margin-right: 5px;
+  width: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
