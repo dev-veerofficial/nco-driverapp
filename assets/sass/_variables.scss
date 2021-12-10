@@ -6,8 +6,8 @@ $color-darkgrey: #82879B;
 $color-litegrey: #f8f8f8;
 $color-light: #fff;
 $color-dark: #000;
-$color-success: #1ab156;
-$color-err: #f64e4e;
+$color-success: #198754;
+$color-err: #070505;
 $color-sidebar-p: #17203f;
 $color-sidebar-s: #273050;
 $color-gold: #e19e39;
@@ -199,17 +199,22 @@ $color-litegreen: #E4F2F8;
     border: 1px solid $color-grey;
 }
 .btn-outline-p {
-    background: transparent;
-    color: $color-dark !important;
+    background: $color-light;
+    color: $color-p !important;
     border: 1px solid $color-p;
     &:hover {
         background: $color-p;
         border-color: $color-p;
         color: $color-light !important;
     }
+    &.active{
+        background-color: $color-p;
+        color: $color-light !important;
+    }
 }
 
 .btn-outline-success {
+    background-color: $color-light;
     border: 1px solid $color-success !important;
     color: $color-success;
     &:hover {
@@ -220,6 +225,10 @@ $color-litegreen: #E4F2F8;
     &[disabled] {
         color: $color-grey !important;
         border-color: $color-grey !important;
+    }
+    &.active{
+        background-color: $color-success;
+        color: $color-light;
     }
 }
 

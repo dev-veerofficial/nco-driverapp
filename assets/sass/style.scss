@@ -60,3 +60,9 @@ header {
         }
     }
 }
+
+.defectbrief:nth-child(even){
+    background-color: rgba(168,181,194,0.1);
+    border-top: 1px solid rgba(112,112,112,0.2);
+    border-bottom: 1px solid rgba(112,112,112,0.2);
+}
