@@ -357,12 +357,17 @@ header a.link-dark {
 
 .loadinfo li {
   line-height: 1.65em;
+  display: flex;
+  flex-wrap: wrap;
 }
 .loadinfo li i {
   color: #a8b0c9;
   display: inline-block;
   margin-right: 5px;
   width: 25px;
+}
+.loadinfo li span {
+  max-width: 190px;
 }
 
 .defectbrief:nth-child(even) {
