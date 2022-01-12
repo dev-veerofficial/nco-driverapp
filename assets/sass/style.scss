@@ -70,3 +70,9 @@ header {
     border-top: 1px solid rgba(112,112,112,0.2);
     border-bottom: 1px solid rgba(112,112,112,0.2);
 }
+
+.content-card{
+    max-height: 85vh;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+}
